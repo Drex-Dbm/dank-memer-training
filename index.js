@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-
+const BOT_TOKEN = "y57W42jja_CTalANj8F4yTMFn-TDFd5b"
  
 
 client.on('ready', () => {
