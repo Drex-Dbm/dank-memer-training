@@ -99,24 +99,22 @@ client.on("message", async message => {
 
   if (cmd === `${prefix}start`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -133,24 +131,22 @@ client2.on("message", async message => {
 
   if (cmd === `${prefix}start2`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -167,24 +163,22 @@ client3.on("message", async message => {
 
   if (cmd === `${prefix}start3`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -201,24 +195,22 @@ client4.on("message", async message => {
 
   if (cmd === `${prefix}start4`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -235,24 +227,22 @@ client5.on("message", async message => {
 
   if (cmd === `${prefix}start5`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -269,24 +259,22 @@ client6.on("message", async message => {
 
   if (cmd === `${prefix}start6`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -303,24 +291,22 @@ client7.on("message", async message => {
 
   if (cmd === `${prefix}start7`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -337,24 +323,22 @@ client8.on("message", async message => {
 
   if (cmd === `${prefix}start8`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -371,24 +355,22 @@ client9.on("message", async message => {
 
   if (cmd === `${prefix}start9`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
@@ -405,24 +387,22 @@ client10.on("message", async message => {
 
   if (cmd === `${prefix}start10`){
 for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
-message.channel.send('pls beg');
-await sleep(2000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(2000)
-message.channel.send('pls use candy');
-await sleep(29000)
-message.channel.send('pls search')
-await sleep(2000)
-message.channel.send('dresser');
-await sleep(10000)
-message.channel.send('pls beg');
-await sleep(20000)
+message.channel.send('pls beg')
+await sleep(21000)
 }
 }
 });
