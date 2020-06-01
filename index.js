@@ -6,9 +6,12 @@ client.on('ready', () => {
     
         console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
         client.user.setActivity('Testing stuff');
-    
-    });
-    
+ });
+
+function sleep(ms) {
+return new Promise(resolve => setTimeout(resolve, ms));
+}    
+
 client.on("message", async message => {
 
   if (message.author.bot) return;
@@ -22,6 +25,7 @@ client.on("message", async message => {
   if (cmd === `${prefix}start`){
 for (var i = 0; i < 10000000000000000; i++) {
 message.channel.send('pls pm')
+await sleep(1000)
 message.channel.send('d');
 await sleep(2000)
 message.channel.send('pls beg');
