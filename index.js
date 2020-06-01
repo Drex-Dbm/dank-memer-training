@@ -11,8 +11,6 @@ const client8 = new Discord.Client();
 const client9 = new Discord.Client();
 const client10 = new Discord.Client();
 
-const config = require("./config.json");
-
 client.on('ready', () => {
     
         console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
