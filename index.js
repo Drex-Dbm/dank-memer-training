@@ -1,29 +1,24 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
+const bot = new Discord.Client({disableEveryone: true});
 
-const client = new Discord.Client();
-const BOT_TOKEN = "NzE1ODI5NTI5ODM4NjE2NTk2.XtC9bw.xmLYTcYE0NAWC_xDFGDVR8wKSS8"
- 
-
-client.on('ready', () => {
-
-    console.log('I am ready!');
-
+bot.on("ready", async () => {
+  console.log(`${bot.user.username} is online!`);
+  bot.user.setActivity(`Hey, Wassup!`);
 });
 
- 
+bot.on("message", async message => {
 
-client.on('message', message => {
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
 
-    if (message.content === 'ping') {
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
 
-       message.reply('pong');
-
-       }
-
+  if (cmd === `${prefix}ping`){
+    message.channel.send("Pong!");
+  }
 });
 
- 
-
-// THIS  MUST  BE  THIS  WAY
-
-client.login(BOT_TOKEN);//BOT_TOKEN is the Client Secret
+bot.login(process.env.token);
