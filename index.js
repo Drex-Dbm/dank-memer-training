@@ -1,15 +1,14 @@
 const Discord = require("discord.js");
-
-const client = new Discord.Client();
-const client2 = new Discord.Client();
-const client3 = new Discord.Client();
-const client4 = new Discord.Client();
-const client5 = new Discord.Client();
-const client6 = new Discord.Client();
-const client7 = new Discord.Client();
-const client8 = new Discord.Client();
-const client9 = new Discord.Client();
-const client10 = new Discord.Client();
+const client = new Discord.Client({disableEveryone: true});
+const client2 = new Discord.Client({disableEveryone: true});
+const client3 = new Discord.Client({disableEveryone: true});
+const client4 = new Discord.Client({disableEveryone: true});
+const client5 = new Discord.Client({disableEveryone: true});
+const client6 = new Discord.Client({disableEveryone: true});
+const client7 = new Discord.Client({disableEveryone: true});
+const client8 = new Discord.Client({disableEveryone: true});
+const client9 = new Discord.Client({disableEveryone: true});
+const client10 = new Discord.Client({disableEveryone: true});
 
 
 client.on('ready', () => {
