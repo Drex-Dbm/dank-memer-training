@@ -11,7 +11,6 @@ const client8 = new Discord.Client();
 const client9 = new Discord.Client();
 const client10 = new Discord.Client();
 
-const config = require("./config.json");
 
 client.on('ready', () => {
     
@@ -93,9 +92,9 @@ client.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -188,9 +187,9 @@ client2.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(cprocess.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -283,9 +282,9 @@ client3.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -378,9 +377,9 @@ client4.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -473,9 +472,9 @@ client5.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -568,9 +567,9 @@ client6.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -663,9 +662,9 @@ client7.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -758,9 +757,9 @@ client8.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -853,9 +852,9 @@ client9.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -948,9 +947,9 @@ client10.on('message', async message => {
     
         if (message.author.bot) return;
         if (message.channel.type === "dm") return;
-        if (!message.content.startsWith(config.prefix)) return;
+        if (!message.content.startsWith(process.env.prefix)) return;
         
-        const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
     
         let yeetEmbed = ''
@@ -1039,13 +1038,13 @@ client10.on('message', async message => {
     
     });
 
-client.login(config.token)
-client2.login(config.token2)
-client3.login(config.token3)  
-client4.login(config.token4)
-client5.login(config.token5)
-client6.login(config.token6)  
-client7.login(config.token7)
-client8.login(config.token8)
-client9.login(config.token9) 
-client10.login(config.token10)  
+client.login(process.env.token)
+client2.login(process.env.token2)
+client3.login(process.env.token3)  
+client4.login(process.env.token4)
+client5.login(process.env.token5)
+client6.login(process.env.token6)  
+client7.login(process.env.token7)
+client8.login(process.env.token8)
+client9.login(process.env.token9) 
+client10.login(process.env.token10)  
