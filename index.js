@@ -1039,13 +1039,13 @@ client10.on('message', async message => {
     
     });
 
-client.login(process.env.token)
-client2.login(process.env.token2)
-client3.login(process.env.token3)  
-client4.login(process.env.token4)
-client5.login(process.env.token5)
-client6.login(process.env.token6)  
-client7.login(process.env.token7)
-client8.login(process.env.token8)
-client9.login(process.env.token9) 
-client10.login(process.env.token10)  
+client.login(config.token)
+client2.login(config.token2)
+client3.login(config.token3)  
+client4.login(config.token4)
+client5.login(config.token5)
+client6.login(config.token6)  
+client7.login(config.token7)
+client8.login(config.token8)
+client9.login(config.token9) 
+client10.login(config.token10)  
