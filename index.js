@@ -10,6 +10,7 @@ const client7 = new Discord.Client();
 const client8 = new Discord.Client();
 const client9 = new Discord.Client();
 const client10 = new Discord.Client();
+const client31 = new Discord.Client();
 
 client.on('ready', () => {
     
@@ -78,6 +79,13 @@ client10.on('ready', () => {
     
         console.log(`Logged in as ${client10.user.username}, ready to get this bread.`);
         client10.user.setActivity('Testing stuff');
+    
+    });
+
+client31.on('ready', () => {
+    
+        console.log(`Logged in as ${client31.user.username}, ready to get this bread.`);
+        client31.user.setActivity('Testing stuff');
     
     });
 	
@@ -407,6 +415,38 @@ await sleep(21000)
 }
 });
 
+client31.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start31`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+}
+}
+});
+
 client.login(process.env.token)
 client2.login(process.env.token2)
 client3.login(process.env.token3)
@@ -417,3 +457,4 @@ client7.login(process.env.token7)
 client8.login(process.env.token8)
 client9.login(process.env.token9)
 client10.login(process.env.token10)
+client31.login(process.env.token31)
