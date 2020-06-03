@@ -26,7 +26,7 @@ function sleep(ms) {
 return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-client.on('ready', () => {
+client.on('ready', async ready => {
 
 var server = client.guilds.get("712773337864077382");
 var channel = server.channels.get("717115306446946406")
