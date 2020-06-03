@@ -59,27 +59,27 @@ var channel = server.channels.get("717115306446946406")
 client2.on('ready', async ready => {
 
 var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717115375430533212")
+var channel2 = server.channels.get("717115375430533212")
 
         console.log(`Logged in as ${client2.user.username}, ready to get this bread.`);
         for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
+        channel2.send('pls search')
         await sleep(1000)
-        channel.send('dresser');
+        channel2.send('dresser');
         await sleep(5000)
-        channel.send('pls beg')
+        channel2.send('pls beg')
         await sleep(20000)
-        channel.send('pls search');
+        channel2.send('pls search');
         await sleep(1000)
-        channel.send('dresser');
+        channel2.send('dresser');
         await sleep(5000)
-        channel.send('pls pm')
+        channel2.send('pls pm')
         await sleep(1000)
-        channel.send('d');
+        channel2.send('d');
         await sleep(2000)
-        channel.send('pls beg')
+        channel2.send('pls beg')
         await sleep(21000)
-        channel.send('pls use candy')
+        channel2.send('pls use candy')
         await sleep(1000)
 }
  
