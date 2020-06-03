@@ -23,9 +23,11 @@ const client20 = new Discord.Client();
 const client31 = new Discord.Client();
 
 client.on('ready', () => {
-    
+
+var server = client.guilds.get("712773337864077382");
+var channel = server.channels.get("717115306446946406")
+
         console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
-        let channel = message.guild.channels.cache.get("717115306446946406")
         for (var i = 0; i < 10000000000000000; i++) {
         channel.send('pls search')
         await sleep(1000)
