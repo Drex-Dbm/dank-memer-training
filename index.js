@@ -32,7 +32,7 @@ var server = client.guilds.get("712773337864077382");
 var channel = server.channels.get("717115306446946406")
 
         console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -58,11 +58,11 @@ var channel = server.channels.get("717115306446946406")
     
 client2.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client2.guilds.get("712773337864077382");
 var channel = server.channels.get("717115375430533212")
 
         console.log(`Logged in as ${client2.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -88,11 +88,11 @@ var channel = server.channels.get("717115375430533212")
     
 client3.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client3.guilds.get("712773337864077382");
 var channel = server.channels.get("717115446410870819")
 
         console.log(`Logged in as ${client3.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -118,11 +118,11 @@ var channel = server.channels.get("717115446410870819")
 	
 client4.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client4.guilds.get("712773337864077382");
 var channel = server.channels.get("717115931888713801")
 
         console.log(`Logged in as ${client4.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -148,11 +148,11 @@ var channel = server.channels.get("717115931888713801")
 		
 client5.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client5.guilds.get("712773337864077382");
 var channel = server.channels.get("717116283660927037")
 
         console.log(`Logged in as ${client5.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -178,11 +178,11 @@ var channel = server.channels.get("717116283660927037")
 	
 client6.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client6.guilds.get("712773337864077382");
 var channel = server.channels.get("717116308998586389")
 
         console.log(`Logged in as ${client6.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -208,11 +208,11 @@ var channel = server.channels.get("717116308998586389")
 
 client7.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client7.guilds.get("712773337864077382");
 var channel = server.channels.get("717116323338911893")
 
         console.log(`Logged in as ${client7.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -238,11 +238,11 @@ var channel = server.channels.get("717116323338911893")
     
 client8.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client8.guilds.get("712773337864077382");
 var channel = server.channels.get("717116385268072520")
 
         console.log(`Logged in as ${client8.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -268,11 +268,11 @@ var channel = server.channels.get("717116385268072520")
     
 client9.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client9.guilds.get("712773337864077382");
 var channel = server.channels.get("717116409104302150")
 
         console.log(`Logged in as ${client9.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -298,11 +298,11 @@ var channel = server.channels.get("717116409104302150")
 	
 client10.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client10.guilds.get("712773337864077382");
 var channel = server.channels.get("717116708795711568")
 
         console.log(`Logged in as ${client10.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -328,11 +328,11 @@ var channel = server.channels.get("717116708795711568")
 		
 client11.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client11.guilds.get("712773337864077382");
 var channel = server.channels.get("717116868523065344")
 
         console.log(`Logged in as ${client11.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -358,11 +358,11 @@ var channel = server.channels.get("717116868523065344")
 	
 client12.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client12.guilds.get("712773337864077382");
 var channel = server.channels.get("717116868724260955")
 
         console.log(`Logged in as ${client12.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -388,11 +388,11 @@ var channel = server.channels.get("717116868724260955")
 
 client13.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client13.guilds.get("712773337864077382");
 var channel = server.channels.get("717116876022611969")
 
         console.log(`Logged in as ${client13.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -418,11 +418,11 @@ var channel = server.channels.get("717116876022611969")
     
 client14.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client14.guilds.get("712773337864077382");
 var channel = server.channels.get("717116875812765800")
 
         console.log(`Logged in as ${client14.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -448,11 +448,11 @@ var channel = server.channels.get("717116875812765800")
     
 client15.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client15.guilds.get("712773337864077382");
 var channel = server.channels.get("717116876966330388")
 
         console.log(`Logged in as ${client15.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -478,11 +478,11 @@ var channel = server.channels.get("717116876966330388")
 	
 client16.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client16.guilds.get("712773337864077382");
 var channel = server.channels.get("717116904434565231")
 
         console.log(`Logged in as ${client16.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -508,11 +508,11 @@ var channel = server.channels.get("717116904434565231")
 		
 client17.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client17.guilds.get("712773337864077382");
 var channel = server.channels.get("717117221444255794")
 
         console.log(`Logged in as ${client17.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -538,11 +538,11 @@ var channel = server.channels.get("717117221444255794")
 	
 client18.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client18.guilds.get("712773337864077382");
 var channel = server.channels.get("717117251265888278")
 
         console.log(`Logged in as ${client18.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -568,11 +568,11 @@ var channel = server.channels.get("717117251265888278")
 
 client19.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client19.guilds.get("712773337864077382");
 var channel = server.channels.get("717117282798534746")
 
         console.log(`Logged in as ${client19.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -598,11 +598,11 @@ var channel = server.channels.get("717117282798534746")
 		
 client20.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client20.guilds.get("712773337864077382");
 var channel = server.channels.get("717117305405833227")
 
         console.log(`Logged in as ${client20.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
@@ -628,11 +628,11 @@ var channel = server.channels.get("717117305405833227")
 	
 client31.on('ready', async () => {
 
-var server = client.guilds.get("712773337864077382");
+var server = client31.guilds.get("712773337864077382");
 var channel = server.channels.get("717590698127523871")
 
         console.log(`Logged in as ${client31.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
+        for (var i = 0; i < 1000000; i++) {
         channel.send('pls search')
         await sleep(1000)
         channel.send('dresser');
