@@ -22,640 +22,872 @@ const client19 = new Discord.Client();
 const client20 = new Discord.Client();
 const client31 = new Discord.Client();
 
-function sleep(ms) {
-return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-client.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717115306446946406")
-
+client.on('ready', () => {
+    
         console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client.user.setActivity('Testing stuff');
     
     });
     
-client2.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel2 = server.channels.get("717115375430533212")
-
+client2.on('ready', () => {
+    
         console.log(`Logged in as ${client2.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel2.send('pls search')
-        await sleep(1000)
-        channel2.send('dresser');
-        await sleep(5000)
-        channel2.send('pls beg')
-        await sleep(20000)
-        channel2.send('pls search');
-        await sleep(1000)
-        channel2.send('dresser');
-        await sleep(5000)
-        channel2.send('pls pm')
-        await sleep(1000)
-        channel2.send('d');
-        await sleep(2000)
-        channel2.send('pls beg')
-        await sleep(21000)
-        channel2.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client2.user.setActivity('Testing stuff');
     
     });
     
-client3.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717115446410870819")
-
+client3.on('ready', () => {
+    
         console.log(`Logged in as ${client3.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client3.user.setActivity('Testing stuff');
     
     });
 	
-client4.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717115931888713801")
-
+client4.on('ready', () => {
+    
         console.log(`Logged in as ${client4.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client4.user.setActivity('Testing stuff');
     
     });
 		
-client5.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116283660927037")
-
+client5.on('ready', () => {
+    
         console.log(`Logged in as ${client5.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client5.user.setActivity('Testing stuff');
     
     });
 	
-client6.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116308998586389")
-
+client6.on('ready', () => {
+    
         console.log(`Logged in as ${client6.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client6.user.setActivity('Testing stuff');
     
     });
-
-client7.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116323338911893")
-
+	
+client7.on('ready', () => {
+    
         console.log(`Logged in as ${client7.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client7.user.setActivity('Testing stuff');
     
     });
+	
+client8.on('ready', () => {
     
-client8.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116385268072520")
-
         console.log(`Logged in as ${client8.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client8.user.setActivity('Testing stuff');
     
     });
+	
+client9.on('ready', () => {
     
-client9.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116409104302150")
-
         console.log(`Logged in as ${client9.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client9.user.setActivity('Testing stuff');
     
     });
 	
-client10.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116708795711568")
-
+client10.on('ready', () => {
+    
         console.log(`Logged in as ${client10.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client10.user.setActivity('Testing stuff');
     
     });
-		
-client11.on('ready', async ready => {
 
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116868523065344")
-
+client11.on('ready', () => {
+    
         console.log(`Logged in as ${client11.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client11.user.setActivity('Testing stuff');
     
     });
-	
-client12.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116868724260955")
-
+    
+client12.on('ready', () => {
+    
         console.log(`Logged in as ${client12.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client12.user.setActivity('Testing stuff');
     
     });
-
-client13.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116876022611969")
-
+    
+client13.on('ready', () => {
+    
         console.log(`Logged in as ${client13.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client13.user.setActivity('Testing stuff');
     
     });
+
+client14.on('ready', () => {
     
-client14.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116875812765800")
-
         console.log(`Logged in as ${client14.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client14.user.setActivity('Testing stuff');
     
     });
+
+client15.on('ready', () => {
     
-client15.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116876966330388")
-
         console.log(`Logged in as ${client15.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client15.user.setActivity('Testing stuff');
     
     });
 	
-client16.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717116904434565231")
-
+client16.on('ready', () => {
+    
         console.log(`Logged in as ${client16.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client16.user.setActivity('Testing stuff');
     
     });
 		
-client17.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717117221444255794")
-
+client17.on('ready', () => {
+    
         console.log(`Logged in as ${client17.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client17.user.setActivity('Testing stuff');
     
     });
 	
-client18.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717117251265888278")
-
+client18.on('ready', () => {
+    
         console.log(`Logged in as ${client18.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
-    
-    });
-
-client19.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717117282798534746")
-
-        console.log(`Logged in as ${client19.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
-    
-    });
-		
-client20.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717117305405833227")
-
-        console.log(`Logged in as ${client20.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+        client18.user.setActivity('Testing stuff');
     
     });
 	
-client31.on('ready', async ready => {
-
-var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717590698127523871")
-
-        console.log(`Logged in as ${client31.user.username}, ready to get this bread.`);
-        for (var i = 0; i < 10000000000000000; i++) {
-        channel.send('pls search')
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls beg')
-        await sleep(20000)
-        channel.send('pls search');
-        await sleep(1000)
-        channel.send('dresser');
-        await sleep(5000)
-        channel.send('pls pm')
-        await sleep(1000)
-        channel.send('d');
-        await sleep(2000)
-        channel.send('pls beg')
-        await sleep(21000)
-        channel.send('pls use candy')
-        await sleep(1000)
-}
- 
+client19.on('ready', () => {
+    
+        console.log(`Logged in as ${client19.user.username}, ready to get this bread.`);
+        client19.user.setActivity('Testing stuff');
+    
+    });
+	
+client20.on('ready', () => {
+    
+        console.log(`Logged in as ${client20.user.username}, ready to get this bread.`);
+        client20.user.setActivity('Testing stuff');
     
     });
 
+client31.on('ready', () => {
+    
+        console.log(`Logged in as ${client31.user.username}, ready to get this bread.`);
+        client31.user.setActivity('Testing stuff');
+    
+    });
+	
+
+
+	function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    
+client.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+ 
+client2.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start2`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client3.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start3`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+	
+client4.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start4`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+ 
+client5.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start5`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client6.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start6`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client7.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start7`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+ 
+client8.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start8`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client9.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start9`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client10.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start10`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client11.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start11`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+ 
+client12.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start12`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client13.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start13`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client14.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start14`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+	
+client15.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start15`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client16.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start16`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+ 
+client17.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start17`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client18.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start18`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client19.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start19`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+ 
+client20.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start20`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
+
+client31.on("message", async message => {
+
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
+
+  let prefix = '-';
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}start31`){
+for (var i = 0; i < 10000000000000000; i++) {
+message.channel.send('pls search')
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls beg')
+await sleep(20000)
+message.channel.send('pls search');
+await sleep(1000)
+message.channel.send('dresser');
+await sleep(5000)
+message.channel.send('pls pm')
+await sleep(1000)
+message.channel.send('d');
+await sleep(2000)
+message.channel.send('pls beg')
+await sleep(21000)
+message.channel.send('pls use candy')
+await sleep(1000)
+}
+}
+});
 
 client.login(process.env.token)
 client2.login(process.env.token2)
