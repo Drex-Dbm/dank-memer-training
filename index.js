@@ -56,38 +56,153 @@ var channel = server.channels.get("717115306446946406")
     
     });
     
-client2.on('ready', () => {
-    
+client2.on('ready', async ready => {
+
+var server = client.guilds.get("712773337864077382");
+var channel = server.channels.get("717115375430533212")
+
         console.log(`Logged in as ${client2.user.username}, ready to get this bread.`);
-        client2.user.setActivity('Testing stuff');
+        for (var i = 0; i < 10000000000000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
     
     });
     
-client3.on('ready', () => {
-    
+client3.on('ready', async ready => {
+
+var server = client.guilds.get("712773337864077382");
+var channel = server.channels.get("717115446410870819")
+
         console.log(`Logged in as ${client3.user.username}, ready to get this bread.`);
-        client3.user.setActivity('Testing stuff');
+        for (var i = 0; i < 10000000000000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
     
     });
 	
-client4.on('ready', () => {
-    
+client4.on('ready', async ready => {
+
+var server = client.guilds.get("712773337864077382");
+var channel = server.channels.get("717115931888713801")
+
         console.log(`Logged in as ${client4.user.username}, ready to get this bread.`);
-        client4.user.setActivity('Testing stuff');
+        for (var i = 0; i < 10000000000000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
     
     });
 		
-client5.on('ready', () => {
-    
+client5.on('ready', async ready => {
+
+var server = client.guilds.get("712773337864077382");
+var channel = server.channels.get("717116283660927037")
+
         console.log(`Logged in as ${client5.user.username}, ready to get this bread.`);
-        client5.user.setActivity('Testing stuff');
+        for (var i = 0; i < 10000000000000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
     
     });
 	
-client6.on('ready', () => {
-    
+client6.on('ready', async ready => {
+
+var server = client.guilds.get("712773337864077382");
+var channel = server.channels.get("717116308998586389")
+
         console.log(`Logged in as ${client6.user.username}, ready to get this bread.`);
-        client6.user.setActivity('Testing stuff');
+        for (var i = 0; i < 10000000000000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
     
     });
 	
