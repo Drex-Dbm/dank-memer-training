@@ -22,6 +22,10 @@ const client19 = new Discord.Client();
 const client20 = new Discord.Client();
 const client31 = new Discord.Client();
 
+function sleep(ms) {
+return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 client.on('ready', () => {
 
 var server = client.guilds.get("712773337864077382");
@@ -192,11 +196,6 @@ client31.on('ready', () => {
     
     });
 	
-
-
-	function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
     
 client.on("message", async message => {
 
