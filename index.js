@@ -20,6 +20,9 @@ const client17 = new Discord.Client();
 const client18 = new Discord.Client();
 const client19 = new Discord.Client();
 const client20 = new Discord.Client();
+const client21 = new Discord.Client();
+const client22 = new Discord.Client();
+const client23 = new Discord.Client();
 const client31 = new Discord.Client();
 
 function sleep(ms) {
@@ -625,6 +628,96 @@ var channel = server.channels.get("717117305405833227")
  
     
     });
+
+client21.on('ready', async () => {
+
+var server = client21.guilds.get("712773337864077382");
+var channel = server.channels.get("717117376562200663")
+
+        console.log(`Logged in as ${client21.user.username}, ready to get this bread.`);
+        for (var i = 0; i < 1000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
+    
+    });
+
+client22.on('ready', async () => {
+
+var server = client22.guilds.get("712773337864077382");
+var channel = server.channels.get("717117421898563634")
+
+        console.log(`Logged in as ${client22.user.username}, ready to get this bread.`);
+        for (var i = 0; i < 1000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
+    
+    });
+
+client23.on('ready', async () => {
+
+var server = client23.guilds.get("712773337864077382");
+var channel = server.channels.get("717117465297158184")
+
+        console.log(`Logged in as ${client23.user.username}, ready to get this bread.`);
+        for (var i = 0; i < 1000000; i++) {
+        channel.send('pls search')
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls beg')
+        await sleep(20000)
+        channel.send('pls search');
+        await sleep(1000)
+        channel.send('dresser');
+        await sleep(5000)
+        channel.send('pls pm')
+        await sleep(1000)
+        channel.send('d');
+        await sleep(2000)
+        channel.send('pls beg')
+        await sleep(21000)
+        channel.send('pls use candy')
+        await sleep(1000)
+}
+ 
+    
+    });
 	
 client31.on('ready', async () => {
 
@@ -677,4 +770,7 @@ client17.login(process.env.token17)
 client18.login(process.env.token18)
 client19.login(process.env.token19)
 client20.login(process.env.token20)
+client21.login(process.env.token21)
+client22.login(process.env.token22)
+client23.login(process.env.token23)
 client31.login(process.env.token31)
