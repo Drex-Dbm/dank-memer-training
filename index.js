@@ -10,7 +10,6 @@ client.on('ready', () => {
 
         console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
         client.user.setActivity('Testing stuff');
-}
 });
 
 client.on("message", async message => {
@@ -43,7 +42,6 @@ await sleep(25100)
         await sleep(31000)
         message.channel.send('pls use candy')
         await sleep(1000)
-}
 }
 });
 
