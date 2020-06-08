@@ -42,7 +42,7 @@ await sleep(25100)
         message.channel.send('pls beg')
         await sleep(31000)
         message.channel.send('pls use candy')
-        await sleep(1000)
+        await sleep(6500)
 }
 }
 });
