@@ -32,7 +32,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 client.on('ready', async () => {
 
 var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717115306446946406")
+var channel = server.channels.get("716227489860681743")
 
         console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
         for (var i = 0; i < 1000000; i++) {
