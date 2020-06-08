@@ -18,7 +18,7 @@ var channel = server.channels.get("716227489860681743")
         channel.send('dresser');
         await sleep(5000)
         channel.send('pls beg')
-        await sleep(20000)
+        await sleep(25100)
         channel.send('pls search');
         await sleep(1000)
         channel.send('dresser');
