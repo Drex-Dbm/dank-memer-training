@@ -25,7 +25,7 @@ client.on("message", async message => {
 
   if (cmd === `${prefix}start`){
 for (var i = 0; i < 10000000000000000; i++) {
-channel.send('pls search')
+message.channel.send('pls search')
 await sleep(1000)
 message.channel.send('dresser');
 await sleep(5000)
