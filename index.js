@@ -44,7 +44,6 @@ await sleep(25100)
         message.channel.send('pls use candy')
         await sleep(1000)
 }
-}
 });
 
 client.login(process.env.token)
