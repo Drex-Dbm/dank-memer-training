@@ -6,6 +6,12 @@ function sleep(ms) {
 return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+client.on('ready', () => {
+
+        console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
+        client.user.setActivity('Testing stuff');
+}
+});
 
 client.on("message", async message => {
 
