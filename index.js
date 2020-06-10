@@ -38,7 +38,7 @@ await sleep(5000)
 message.channel.send('pls pm')
 await sleep(1000)
 message.channel.send('d');
-await sleep(2000)
+await sleep(7500)
 message.channel.send('pls beg')
 await sleep(31000)
 message.channel.send('pls use candy')
