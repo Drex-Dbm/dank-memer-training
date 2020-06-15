@@ -10,6 +10,11 @@ const client7 = new Discord.Client();
 const client8 = new Discord.Client();
 const client9 = new Discord.Client();
 const client10 = new Discord.Client();
+const client11 = new Discord.Client();
+const client12 = new Discord.Client();
+const client13 = new Discord.Client();
+const client14 = new Discord.Client();
+const client15 = new Discord.Client();
 
 function sleep(ms) {
 return new Promise(resolve => setTimeout(resolve, ms));
@@ -315,6 +320,156 @@ await sleep(6500)
 
     });
 
+client11.on('ready', async () => {
+
+var server = client11.guilds.get("716227489860681738");
+var channel = server.channels.get("716228032850821141")
+
+console.log(`Logged in as ${client11.user.username}, ready to get this bread.`);
+for (var i = 0; i < 1000000; i++) {
+channel.send('pls search')
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls beg')
+await sleep(25100)
+channel.send('pls search');
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls pm')
+await sleep(1000)
+channel.send('d');
+await sleep(8500)
+channel.send('pls beg')
+await sleep(31000)
+channel.send('pls use candy')
+await sleep(6500)
+}
+
+
+    });
+
+client12.on('ready', async () => {
+
+var server = client12.guilds.get("716227489860681738");
+var channel = server.channels.get("716228076324782112")
+
+console.log(`Logged in as ${client12.user.username}, ready to get this bread.`);
+for (var i = 0; i < 1000000; i++) {
+channel.send('pls search')
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls beg')
+await sleep(25100)
+channel.send('pls search');
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls pm')
+await sleep(1000)
+channel.send('d');
+await sleep(8500)
+channel.send('pls beg')
+await sleep(31000)
+channel.send('pls use candy')
+await sleep(6500)
+}
+
+
+    });
+
+client13.on('ready', async () => {
+
+var server = client13.guilds.get("716227489860681738");
+var channel = server.channels.get("716228134390857788")
+
+console.log(`Logged in as ${client13.user.username}, ready to get this bread.`);
+for (var i = 0; i < 1000000; i++) {
+channel.send('pls search')
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls beg')
+await sleep(25100)
+channel.send('pls search');
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls pm')
+await sleep(1000)
+channel.send('d');
+await sleep(8500)
+channel.send('pls beg')
+await sleep(31000)
+channel.send('pls use candy')
+await sleep(6500)
+}
+
+
+    });
+
+client14.on('ready', async () => {
+
+var server = client14.guilds.get("716227489860681738");
+var channel = server.channels.get("716228161787920415")
+
+console.log(`Logged in as ${client14.user.username}, ready to get this bread.`);
+for (var i = 0; i < 1000000; i++) {
+channel.send('pls search')
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls beg')
+await sleep(25100)
+channel.send('pls search');
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls pm')
+await sleep(1000)
+channel.send('d');
+await sleep(8500)
+channel.send('pls beg')
+await sleep(31000)
+channel.send('pls use candy')
+await sleep(6500)
+}
+
+
+    });
+
+client15.on('ready', async () => {
+
+var server = client15.guilds.get("716227489860681738");
+var channel = server.channels.get("716228182977544252")
+
+console.log(`Logged in as ${client15.user.username}, ready to get this bread.`);
+for (var i = 0; i < 1000000; i++) {
+channel.send('pls search')
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls beg')
+await sleep(25100)
+channel.send('pls search');
+await sleep(1000)
+channel.send('dresser');
+await sleep(5000)
+channel.send('pls pm')
+await sleep(1000)
+channel.send('d');
+await sleep(8500)
+channel.send('pls beg')
+await sleep(31000)
+channel.send('pls use candy')
+await sleep(6500)
+}
+
+
+    });
+
 client.login(process.env.token)
 client2.login(process.env.token2)
 client3.login(process.env.token3)
@@ -325,3 +480,8 @@ client7.login(process.env.token7)
 client8.login(process.env.token8)
 client9.login(process.env.token9)
 client10.login(process.env.token10)
+client11.login(process.env.token6)
+client12.login(process.env.token7)
+client13.login(process.env.token8)
+client14.login(process.env.token9)
+client15.login(process.env.token10)
