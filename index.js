@@ -15,6 +15,7 @@ const client12 = new Discord.Client();
 const client13 = new Discord.Client();
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
+const astreminix = new Discord.Client();
 
 function sleep(ms) {
 return new Promise(resolve => setTimeout(resolve, ms));
@@ -470,6 +471,13 @@ await sleep(6500)
 
     });
 
+astreminix.on('ready', async () => {
+
+console.log(`Logged in as ${astreminix.user.username}, ready to get this bread.`);
+
+});
+
+
 client.login(process.env.token)
 client2.login(process.env.token2)
 client3.login(process.env.token3)
@@ -485,3 +493,4 @@ client12.login(process.env.token12)
 client13.login(process.env.token13)
 client14.login(process.env.token14)
 client15.login(process.env.token15)
+astreminix.login(process.env.astreminix)
