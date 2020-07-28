@@ -15,19 +15,19 @@ var channel = server.channels.get("716227489860681743")
 console.log(`Logged in as ${client.user.username}, ready to get this bread.`);
 for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
-await sleep(1000)
+await sleep(2400)
 channel.send('dresser');
 await sleep(5000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
-await sleep(1000)
+await sleep(1700)
 channel.send('dresser');
 await sleep(5000)
 channel.send('pls pm')
 await sleep(1000)
 channel.send('d');
-await sleep(8500)
+await sleep(13500)
 channel.send('pls beg')
 await sleep(31000)
 channel.send('pls use candy')
