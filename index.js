@@ -21,7 +21,7 @@ await sleep(5000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
-await sleep(1700)
+await sleep(2400)
 channel.send('dresser');
 await sleep(5000)
 channel.send('pls pm')
