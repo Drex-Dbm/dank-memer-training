@@ -31,7 +31,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -61,7 +61,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -91,7 +91,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -121,7 +121,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -151,7 +151,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -181,7 +181,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -211,7 +211,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -241,7 +241,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -271,7 +271,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -301,7 +301,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -331,7 +331,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -361,7 +361,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -391,7 +391,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -421,7 +421,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
@@ -451,7 +451,7 @@ for (var i = 0; i < 1000000; i++) {
 channel.send('pls search')
 await sleep(1000)
 channel.send('dresser');
-await sleep(5000)
+await sleep(7000)
 channel.send('pls beg')
 await sleep(25100)
 channel.send('pls search');
