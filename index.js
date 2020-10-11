@@ -448,8 +448,8 @@ var channel = server.channels.get("763297486831484938")
 
 console.log(`Logged in as ${client15.user.username}, ready to get this bread.`);
 for (var i = 0; i < 1000000; i++) {
-channel.send('~dispense')
-await sleep(1800000)
+channel.send('?murder')
+await sleep(301000)
 }
 
 
