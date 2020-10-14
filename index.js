@@ -418,24 +418,8 @@ var channel = server.channels.get("716228161787920415")
 
 console.log(`Logged in as ${client14.user.username}, ready to get this bread.`);
 for (var i = 0; i < 1000000; i++) {
-channel.send('pls search')
-await sleep(1000)
-channel.send('dresser');
-await sleep(7000)
-channel.send('pls beg')
-await sleep(25100)
-channel.send('pls search');
-await sleep(1000)
-channel.send('dresser');
-await sleep(5000)
-channel.send('pls pm')
-await sleep(1000)
-channel.send('d');
-await sleep(13500)
-channel.send('pls beg')
-await sleep(31000)
-channel.send('pls use candy')
-await sleep(6500)
+channel.send('?terror')
+await sleep(3600000)
 }
 
 
@@ -449,7 +433,7 @@ var channel = server.channels.get("763297486831484938")
 console.log(`Logged in as ${client15.user.username}, ready to get this bread.`);
 for (var i = 0; i < 1000000; i++) {
 channel.send('?murder')
-await sleep(601000)
+await sleep(660000)
 }
 
 
