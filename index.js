@@ -413,8 +413,8 @@ await sleep(6500)
 
 client14.on('ready', async () => {
 
-var server = client14.guilds.get("716227489860681738");
-var channel = server.channels.get("716228161787920415")
+var server = client14.guilds.get("755785182639947877");
+var channel = server.channels.get("763297486831484938")
 
 console.log(`Logged in as ${client14.user.username}, ready to get this bread.`);
 for (var i = 0; i < 1000000; i++) {
